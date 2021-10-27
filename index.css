@@ -33,6 +33,7 @@ body{
 }
 a{
     font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
 }
 h1{
     font-size:5rem;
@@ -55,7 +56,7 @@ nav a{
 }
 .orange{
     background-color: #ff764f;
-    margin-left: 0; 
+    margin-left: 10%; 
 }
 .blue{
     background-color:#5ed3eb;
@@ -64,6 +65,9 @@ nav a{
 .yellow{
     background-color: #ffcd69;
     margin-right: 10%;
+}
+.top{
+    position: relative;
 }
 .left, .right{
     display: inline-block;
@@ -77,8 +81,13 @@ nav a{
     width: 80%;
 }
 .right{
-    width:50;
+    width:55;
     margin-left: 5%;
     position:absolute;
-    
+    top:45%;
+}
+.main{
+    background-color: #DDB9A3;
+    color: white;
+    padding:2%;
 }
